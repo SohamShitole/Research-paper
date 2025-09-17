@@ -1,0 +1,34 @@
+{
+  "pipeline_config": {
+    "base_dir": "downloaded_papers",
+    "output_dir": "bert_training_output",
+    "skip_preprocessing": false,
+    "max_length": 512,
+    "model_name": "bert-base-uncased",
+    "task": "next_sentence_prediction",
+    "num_labels": 2,
+    "epochs": 1,
+    "batch_size": 8,
+    "learning_rate": 2e-05,
+    "warmup_steps": 500,
+    "weight_decay": 0.01,
+    "gradient_accumulation_steps": 1,
+    "max_grad_norm": 1.0,
+    "save_every_n_epochs": 1,
+    "max_train_samples": 1000,
+    "max_val_samples": 200,
+    "run_hyperparameter_search": false,
+    "run_evaluation": true,
+    "experiment_name": "quick_test",
+    "mlflow_tracking_uri": null,
+    "quick_test": true
+  },
+  "data_paths": {
+    "train": "bert_training_output/processed_data/train/tokenized_dataset.json",
+    "val": "bert_training_output/processed_data/val/tokenized_dataset.json",
+    "test": "bert_training_output/processed_data/test/tokenized_dataset.json"
+  },
+  "model_path": "bert_training_output/models/best_model",
+  "total_time_seconds": 38553.89526391029,
+  "timestamp": "2025-09-15 21:18:37"
+}

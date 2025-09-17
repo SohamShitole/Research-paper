@@ -1,0 +1,5 @@
+{
+  "train": "bert_training_output/processed_data/train/tokenized_dataset.json",
+  "val": "bert_training_output/processed_data/val/tokenized_dataset.json",
+  "test": "bert_training_output/processed_data/test/tokenized_dataset.json"
+}
