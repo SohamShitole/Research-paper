@@ -1,0 +1,78 @@
+# Large model files
+*.safetensors
+*.pt
+*.bin
+*.h5
+*.pkl
+*.pickle
+*.model
+
+# Training outputs and data
+bert_training_output/models/
+bert_training_output/processed_data/
+downloaded_papers/
+mlruns/
+evaluation_results/
+
+# Data files (keep small ones for examples)
+# *.csv  # Commented out to keep small CSV files
+*.parquet
+*.feather
+*.hdf5
+
+# Logs
+*.log
+training.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# OS files
+.DS_Store
+.localized
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
